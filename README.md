@@ -28,6 +28,21 @@ Este repositorio **no incluye los archivos CSV** (son datos generados, no versio
 ## 🏗️ Arquitectura
 ![Arquitectura Medallion](docs/EduStream-Arquitectura-Medallion.png)
 
+## ⬇️ Obtener el proyecto
+
+**Opción A — Clonar con Git:**
+
+​```bash
+git clone https://github.com/david-ldh/edustream-pipeline-DLDH.git
+​```
+
+**Opción B — Sin Git:** clic en el botón verde **Code → Download ZIP** y descomprime.
+
+> 📌 **Nota:** clonar/descargar baja los archivos a tu PC, pero los notebooks
+> (`.ipynb`) se ejecutan en **Databricks**, no localmente. Tras obtener el repo,
+> impórtalos a tu workspace: **Workspace → Import → File**, y selecciona cada `.ipynb`.
+> El script `generate_data_edustream.py` sí se ejecuta en tu PC (genera los CSV locales).
+
 ## 🚀 Cómo reproducirlo en Databricks Free Edition
 
 1. **Crear cuenta** en [Databricks Free Edition](https://www.databricks.com/learn/free-edition) y abrir el workspace.
