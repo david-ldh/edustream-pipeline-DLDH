@@ -1,0 +1,9 @@
+# Datos generados (no se versionan)
+data/
+*.csv
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+# Archivos del sistema
+.DS_Store
+Thumbs.db
